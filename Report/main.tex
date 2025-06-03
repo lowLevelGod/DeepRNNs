@@ -6,6 +6,7 @@
 \usepackage{tabularx}
 \usepackage{hyperref}
 \usepackage{array}
+\usepackage[a4paper, top=1.5cm, bottom=1.5cm, left=2.5cm, right=2.5cm]{geometry}
 
 \title{Investigating the robustness and applicability of Deep RNNs}
 \author{
@@ -204,6 +205,7 @@ Table below shows validation loss at epoch 10 across RNN-based models with varyi
 \section{Conclusion}
 This study demonstrates that DT(S)-RNNs maintain superior gradient flow, enhancing learning stability across long sequences. Hyperparameter tuning revealed diminishing returns beyond moderate hidden sizes and depths. Overall, deep transition architectures offer benefits, but simplicity can outperform under constrained settings.
 
+\clearpage
 \bibliographystyle{plain}
 \bibliography{references}
 
